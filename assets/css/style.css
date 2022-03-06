@@ -1,10 +1,18 @@
 #playerArray {
     background-color: blue;
+    font-size: 2em;
+    font-weight: 1.2em;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
 #computerArray{
     background-color: red;
+    font-size: 2em;
+    font-weight: 1.2em;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
