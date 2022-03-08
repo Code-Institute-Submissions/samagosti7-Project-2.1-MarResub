@@ -1,19 +1,190 @@
-#playerArray {
-    background-color: blue;
-    font-size: 2em;
-    font-weight: 1.2em;
-    margin: 0 auto;
-    text-align: center;
+/* rest defaults */
+body{
+    font-family: sans-serif;
+    background-color: #BFD1DF;
 
 }
 
-#guessArray{
+/* header */
+nav ul{
+    list-style:none;
+    margin:none;
+    padding:0 0 0.8% 0;
+    text-align:center;
+}
+
+nav li{
+    font-size:150%;
+    line-height:30px;
+    height:15px;
+    display:inline-block;
+    margin-top:0%;
+    margin-bottom:3%;
+    margin-right:7%;
+    margin-left:7%;
+}
+
+nav a{
+    text-decoration:none;
+    display:block;
+    padding:2px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    padding:2px;
+    border-radius:10px;
+}
+
+.siteHeader {
+    margin: none;
+    padding: none;
+}
+
+
+/* home page */
+#introContainer{
+    /* border: 2rem; */
+    outline: 1em solid black;
+    border-radius: 2rem;
+    border-color: black;
+    float: left;
     background-color: red;
-    font-size: 2em;
-    font-weight: 1.2em;
+    width: 30%;
+    padding: 1.5em;
+    margin: 1.5em;
+    margin-left: 7em;
+    height: 10em;
+}
+#keyContainer{
+    outline: 1em solid black;
+    border-radius: 2rem;
+    border-color: black;
+    border: 0.5rem;
+    float: right;
+    background-color: red;
+    width: 30%;
+    padding: 1.5em;
+    margin: 1.5em;
+    margin-right:7em;
+    height: 10em;
+}
+
+#suggestionContainer{
     margin: 0 auto;
     text-align: center;
+    outline: 1em solid black;
+    border-radius: 2rem;
+    border-color: black;
+    border: 0.5rem;
+    width: 70%;
 }
+/* content */
+.choiceContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#playHeader {
+    display: flex;
+    justify-content: center;
+    font-size:3em;
+    font-weight: 1.5em;
+    padding-top: none;
+}
+
+#choiceRock {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.5em;
+    transition: 100ms;
+    font-family: sans-serif;
+}
+
+#choicePaper {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.5em;
+    transition: 100ms;
+    font-family: sans-serif;
+}
+
+#choiceScissors{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2.5em;
+    transition: 100ms;
+    font-family: sans-serif;
+}
+
+#choiceRock:hover {
+    transform: scale(1.5);
+}
+
+#choicePaper:hover {
+    transform: scale(1.5);
+}
+
+#choiceScissors:hover {
+    transform: scale(1.5);
+}
+
+.scoreContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 1.5em;
+
+}
+
+.playerScore {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.computerScore {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* footer */
+footer {
+    margin:0;
+}
+
+footer ul {
+    text-align:center;
+    vertical-align:middle;
+    padding:0;
+}
+
+footer ul > li {
+    display:inline;
+}
+
+footer ul i {
+    font-size:160%;
+    margin:1%;
+    padding:2.5%;
+}
+
+
+
 
 
 

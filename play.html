@@ -9,7 +9,7 @@
 <body>
     <header>
         <div>
-           <h1>Play!</h1>
+           <h1 class="playHeader">Play!</h1>
         </div>
         <nav>
             <ul>
@@ -20,40 +20,44 @@
         </nav>
     </header>
    
-    <h2 id="playerHeader">Play</h2>
+    <h2 id="playHeader">Choose Your Weapon</h2>
+
+    <br>
 
     <div class="choiceContainer">
-        <button class="choice">
+        <button id="choiceRock">
             Rock
         </button>
-        <button class="choice">
+        <button id="choicePaper">
             Paper
         </button>
-        <button class="choice">
+        <button id="choiceScissors">
             Scissors
         </button>
     </div>
 
+    <br><br><br><br>
+
     <div class="scoreContainer">
         <div>
-            You
-            <span class="score">
+            You:
+            <span id="playerScore">
                 0
             </span>
         </div>
         <div>
-            Computer
-            <span class="score">
+            Computer:
+            <span id="computerScore">
                 0
             </span>
         </div>
     </div>
-
-    <div class="choices">
-        <button class="choice">Rock</button>
-        <button class="choice">Paper</button>
-        <button class="choice">Scissors</button>
+    <div id="showOutcome">
+        Result Here
     </div>
+    <br><br><br>
+    <footer>
+        <ul>
            <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
            </li>
