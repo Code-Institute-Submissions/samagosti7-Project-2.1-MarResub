@@ -91,6 +91,10 @@ nav a:hover{
     width: 70%;
     background-color: #ECDDD0;
 }
+
+#suggestion{
+    padding: 0.2em;
+}
 /* content */
 .choiceContainer {
     display: flex;
@@ -115,6 +119,7 @@ nav a:hover{
     font-size: 2.5em;
     transition: 100ms;
     font-family: sans-serif;
+    color:#35455D;
 }
 
 #choicePaper {
@@ -127,6 +132,7 @@ nav a:hover{
     font-size: 2.5em;
     transition: 100ms;
     font-family: sans-serif;
+    color:#35455D;
 }
 
 #choiceScissors{
@@ -139,6 +145,7 @@ nav a:hover{
     font-size: 2.5em;
     transition: 100ms;
     font-family: sans-serif;
+    color:#35455D;
 }
 
 #choiceRock:hover {
