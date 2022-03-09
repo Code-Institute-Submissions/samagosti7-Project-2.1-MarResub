@@ -6,10 +6,20 @@ body{
 }
 
 /* header */
+nav{
+    background-color: #ECDDD0;
+    outline: 0.3em solid black;
+    border-radius: 2rem;
+    border-color: black;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
 nav ul{
     list-style:none;
     margin:none;
-    padding:0 0 0.8% 0;
+    /* padding:0 0 0.8% 0; */
     text-align:center;
 }
 
@@ -18,10 +28,11 @@ nav li{
     line-height:30px;
     height:15px;
     display:inline-block;
-    margin-top:0%;
-    margin-bottom:3%;
+    /* margin-top:0%;
+    margin-bottom:2%; */
     margin-right:7%;
     margin-left:7%;
+    /* background-color: #BFD1DF; */
 }
 
 nav a{
@@ -45,11 +56,11 @@ nav a:hover{
 /* home page */
 #introContainer{
     /* border: 2rem; */
-    outline: 1em solid black;
+    outline: 0.3em solid black;
     border-radius: 2rem;
     border-color: black;
     float: left;
-    background-color: red;
+    background-color: #ECDDD0;
     width: 30%;
     padding: 1.5em;
     margin: 1.5em;
@@ -57,12 +68,12 @@ nav a:hover{
     height: 10em;
 }
 #keyContainer{
-    outline: 1em solid black;
+    outline: 0.3em solid black;
     border-radius: 2rem;
     border-color: black;
     border: 0.5rem;
     float: right;
-    background-color: red;
+    background-color: #ECDDD0;
     width: 30%;
     padding: 1.5em;
     margin: 1.5em;
@@ -73,11 +84,12 @@ nav a:hover{
 #suggestionContainer{
     margin: 0 auto;
     text-align: center;
-    outline: 1em solid black;
+    outline: 0.3em solid black;
     border-radius: 2rem;
     border-color: black;
     border: 0.5rem;
     width: 70%;
+    background-color: #ECDDD0;
 }
 /* content */
 .choiceContainer {

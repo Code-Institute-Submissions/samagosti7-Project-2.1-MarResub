@@ -34,7 +34,7 @@ function findWinnerRock(){
     incrementScore();
 }
 
-rockChoice.addEventListener("click", findWinnerRock());
+rockChoice.addEventListener("click", findWinnerRock);
 
 function findWinnerPaper(){
     computerChoice=Math.floor(Math.random()*3);

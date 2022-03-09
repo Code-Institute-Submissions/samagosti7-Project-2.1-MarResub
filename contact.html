@@ -21,7 +21,38 @@
         </nav>
     </header>
 
-    <div>content</div>
+    <!-- Form container -->
+    <section id="form-container">
+        <!-- Page header -->
+        <h2>Add a Riddle!</h2>
+        <br>
+        <!-- Form itself -->
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" aria-label="Enter first name here" required>
+            <br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" aria-label="Enter last name here" required>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" aria-label="Enter E-mail here" required>
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Choose Something Unique!" aria-label="Enter username here" required>
+            <br>
+            <label for="question" class="center-label">Riddle:</label> 
+            <br>
+            <textarea id="question" name="question" placeholder="Enter first part of riddle here only--solution will go below" aria-label="Enter the first part of riddle here only--solution will go in the next input section" required></textarea>  
+            <br>
+            <label for="answer" id="center-label">Solution:</label>
+            <br>
+            <textarea id="answer" name="answer" placeholder="Enter solution here" aria-label="Enter solution to riddle here" required></textarea>
+            <br>
+            <input type="submit" id="submit" name="submit" aria-label="Submit button, click to submit form">
+        </form>
+    </section>
+    <br>
+    <hr>
 
 	<footer>
     <ul>
