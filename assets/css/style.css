@@ -8,9 +8,9 @@ body{
 /* header */
 nav{
     background-color: #ECDDD0;
-    outline: 0.3em solid black;
+    outline: 0.3em solid #35455D;
     border-radius: 2rem;
-    border-color: black;
+    border-color: #35455D;;
     width: 70%;
     margin: 0 auto;
 
@@ -56,9 +56,9 @@ nav a:hover{
 /* home page */
 #introContainer{
     /* border: 2rem; */
-    outline: 0.3em solid black;
+    outline: 0.3em solid #35455D;;
     border-radius: 2rem;
-    border-color: black;
+    border-color: #35455D;;
     float: left;
     background-color: #ECDDD0;
     width: 30%;
@@ -68,9 +68,9 @@ nav a:hover{
     height: 10em;
 }
 #keyContainer{
-    outline: 0.3em solid black;
+    outline: 0.3em solid #35455D;;
     border-radius: 2rem;
-    border-color: black;
+    border-color: #35455D;;
     border: 0.5rem;
     float: right;
     background-color: #ECDDD0;
@@ -84,9 +84,9 @@ nav a:hover{
 #suggestionContainer{
     margin: 0 auto;
     text-align: center;
-    outline: 0.3em solid black;
+    outline: 0.3em solid #35455D;;
     border-radius: 2rem;
-    border-color: black;
+    border-color: #35455D;;
     border: 0.5rem;
     width: 70%;
     background-color: #ECDDD0;
@@ -172,6 +172,83 @@ nav a:hover{
 .computerScore {
     padding-left: 2em;
     padding-right: 2em;
+}
+
+/* form */
+#first-name {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#last-name {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#username {
+    background-color:ghostwhite;
+    margin:1%;
+}
+
+#email {
+    background-color:ghostwhite;
+    margin:1%;  
+}
+
+#question {
+    background-color:ghostwhite;
+    margin:1%;  
+    height:200px;
+    width:550px;
+    font-size:1.3em;
+}
+
+/* The style rule format here was taken from https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1 */
+#question::-webkit-input-placeholder {
+    font-family:sans-serif;
+}
+
+#answer {
+    background-color:ghostwhite;
+    margin:1%;  
+    height:50px;
+    width:300px;
+    font-size:1.2em;
+}
+
+/* The style rule format here was taken from https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1 */
+#answer::-webkit-input-placeholder {
+    font-family:sans-serif;
+}
+
+section form label {
+    color:#35455D;
+    padding:10px;
+    font-size:1.2em;
+}
+
+#form-header{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    color: #35455D;
+
+}
+
+section form{
+    text-align:center;
+}
+
+#submit {
+    font-size:1.5em;
+    margin:1%;
+}
+
+#form-container{
+    outline:solid 3px #35455D;
+    padding:1%;
+    width:60%;
+    margin:0 auto;
 }
 
 /* footer */
