@@ -71,10 +71,18 @@ nav a:hover{
     float: right;
     background-color: #ECDDD0;
     width: 30%;
-    padding: 1.5em;
+    padding: 0.5em;
     margin: 1.5em;
     margin-right:7em;
     height: 10em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 1.5em;
+    color: #35455D;
 }
 
 #suggestionContainer{
@@ -88,8 +96,20 @@ nav a:hover{
     background-color: #ECDDD0;
 }
 
+#intro{
+    padding: 0.2em;
+    color: #35455D;
+    font-weight: 2em;
+}
+
+#key{
+    padding: 0.2em;
+    color: #35455D;
+}
+
 #suggestion{
     padding: 0.2em;
+    color: #35455D;
 }
 
 /* play page */
@@ -166,7 +186,7 @@ nav a:hover{
     align-items: center;
     font-size: 1.5em;
     font-weight: 1.5em;
-
+    color: #35455D;
 }
 
 .playerScore {
@@ -177,6 +197,12 @@ nav a:hover{
 .computerScore {
     padding-left: 2em;
     padding-right: 2em;
+}
+
+#showOutcome{
+    color:#35455D;
+    font-size: 1.2em;
+    margin-left: 1.5em;
 }
 
 /* form */
@@ -273,6 +299,13 @@ section form{
         width:80%;
         margin:0 auto;
     }
+    #question {
+        background-color:ghostwhite;
+        margin:1%;  
+        height:200px;
+        width:320px;
+        font-size:1.3em;
+    }
 }
 
 @media (min-width: 375px) and (max-width:424px) {
@@ -282,6 +315,20 @@ section form{
         width:80%;
         margin:0 auto;
     }
+    #question {
+        background-color:ghostwhite;
+        margin:1%;  
+        height:150px;
+        width:280px;
+        font-size:1.3em;
+    }
+    #answer {
+        background-color:ghostwhite;
+        margin:1%;  
+        height:50px;
+        width:280px;
+        font-size:1.2em;
+    }
 }
 
 @media (min-width: 320px) and (max-width:374px) {
@@ -290,6 +337,20 @@ section form{
         padding:1%;
         width:80%;
         margin:0 auto;
+    }
+    #question {
+        background-color:ghostwhite;
+        margin:1%;  
+        height:150px;
+        width:236px;
+        font-size:1.3em;
+    }
+    #answer {
+        background-color:ghostwhite;
+        margin:1%;  
+        height:50px;
+        width:236px;
+        font-size:1.2em;
     }
 }
 
