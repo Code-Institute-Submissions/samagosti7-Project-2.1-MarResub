@@ -1,3 +1,4 @@
+// Initial variable declarations
 let rockChoice=document.getElementById("choiceRock");
 let paperChoice=document.getElementById("choicePaper");
 let scissorsChoice=document.getElementById("choiceScissors");
@@ -5,6 +6,7 @@ let computerChoice= "";
 let result= "";
 
 // 0=rock, 1=paper, 3=scissors
+// Function to increase score after the winner is decided
 
 function incrementScore(){
     let oldScorePlayer = parseInt(document.getElementById("playerScore").innerText);
@@ -20,9 +22,8 @@ function incrementScore(){
     }
 }
 
+// Function finding winner if the user chooses rock
 function findWinnerRock(){
-    // preventDefault();
-    // rockChoice.addEventListener("click", findWinnerRock());
     computerChoice=Math.floor(Math.random()*3);
     if(computerChoice==0){
         result = "draw";
@@ -34,8 +35,10 @@ function findWinnerRock(){
     incrementScore();
 }
 
+// Event listener for the rock button
 rockChoice.addEventListener("click", findWinnerRock);
 
+// Function finding winner if the user chooses paper
 function findWinnerPaper(){
     computerChoice=Math.floor(Math.random()*3);
     if(computerChoice==0){
@@ -48,8 +51,10 @@ function findWinnerPaper(){
     incrementScore();
 }
 
+// Event listener for the paper button
 paperChoice.addEventListener("click", findWinnerPaper);
 
+// Function finding winner if the user chooses scissors
 function findWinnerScissors(){
     computerChoice=Math.floor(Math.random()*3);
     if(computerChoice==0){
@@ -62,6 +67,7 @@ function findWinnerScissors(){
     incrementScore();
 }
 
+// Event listener for the scissors button
 scissorsChoice.addEventListener("click", findWinnerScissors);
 
 
