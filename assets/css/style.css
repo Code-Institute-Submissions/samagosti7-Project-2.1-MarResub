@@ -8,11 +8,14 @@ body{
 /* header and nav bar*/
 nav{
     background-color: #ECDDD0;
-    outline: 0.3em solid #35455D;
-    border-radius: 2rem;
+    outline: 0.1em solid #35455D;
+    border-radius: 5px;
     border-color: #35455D;;
     width: 70%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
 
 }
 
@@ -202,7 +205,9 @@ nav a:hover{
 #showOutcome{
     color:#35455D;
     font-size: 1.2em;
-    margin-left: 1.5em;
+    /* margin-left: 1.5em; */
+    text-align: center;
+    
 }
 
 /* form */
@@ -345,6 +350,7 @@ section form{
         width:236px;
         font-size:1.3em;
     }
+
     #answer {
         background-color:ghostwhite;
         margin:1%;  
