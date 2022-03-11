@@ -27,11 +27,11 @@ function evaluateWinner(){
     let playerScore1 = parseInt(document.getElementById("playerScore").innerText);
     let computerScore1 = parseInt(document.getElementById("computerScore").innerText);
     if(playerScore1>5){
-        alert("Player Has Won");
+        alert("You have reached a score of 6--you win!");
         window.location.reload();
     }
     if(computerScore1>5){
-        alert("Computer Has Won");
+        alert("Computer has reached a score of 6--computer wins.");
         window.location.reload();
     }
     

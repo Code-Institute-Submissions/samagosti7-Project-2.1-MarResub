@@ -52,6 +52,37 @@ nav a:hover{
     padding: none;
 }
 
+/* Background animation */
+.bg {
+    animation: slide 5s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #35455D 50%, #BFD1DF 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: 0.5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(25%);
+    }
+}
+
 /* home page */
 #introContainer{
     outline: 0.1em solid #35455D;;
@@ -126,6 +157,7 @@ nav a:hover{
     font-size:3em;
     font-weight: 1.5em;
     padding-top: none;
+    color: #35455D;
 }
 
 #choiceRock {
