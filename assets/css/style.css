@@ -1,13 +1,16 @@
 /* rest defaults */
 body{
     font-family: sans-serif;
+    /* Color scheme originated at https://www.pinterest.com/pin/480759328972726047/ */
     background-color: #BFD1DF;
 
 }
 
 /* header and nav bar*/
 nav{
-    background-color: #ECDDD0;
+    /* The following gradient background was provided by https://cssgradient.io/  */
+    background: rgb(236,221,208);
+    background: radial-gradient(circle, rgba(236,221,208,1) 33%, rgba(53,69,93,1) 100%);
     outline: 0.1em solid #35455D;
     border-radius: 5px;
     border-color: #35455D;;
@@ -40,11 +43,14 @@ nav a{
     display:block;
     padding:2px;
     transition:0.3s;
+    color: #35455D;
+    /* background-color: red; */
 }
 
 nav a:hover{
     padding:2px;
     border-radius:10px;
+    color: ghostwhite;
 }
 
 .siteHeader {
@@ -52,7 +58,7 @@ nav a:hover{
     padding: none;
 }
 
-/* Background animation */
+/* Background animation--taken from a provided project, link: https://top-chef-kelvin.herokuapp.com/*/
 .bg {
     animation: slide 5s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #35455D 50%, #BFD1DF 50%);
@@ -283,7 +289,6 @@ nav a:hover{
 } */
 
 #form-header{
-    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
     color: #35455D;
@@ -401,6 +406,16 @@ footer ul i {
     font-size:160%;
     margin:1%;
     padding:2.5%;
+}
+
+footer a {
+    color: #35455D;
+    /* color: #ECDDD0; */
+}
+
+footer a:hover {
+    color: #ECDDD0;
+    /* color: #35455D; */
 }
 
 
