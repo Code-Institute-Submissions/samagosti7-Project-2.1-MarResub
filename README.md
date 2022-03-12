@@ -1,6 +1,6 @@
 # RockPaperScissors
 
-<a href="" target="_blank">View the live site here</a>
+<a href="https://samagosti7.github.io/Project-2.1/" target="_blank">View the live site here</a>
 
 # Contents
 
@@ -119,7 +119,8 @@ This project uses the following languages and was created on Github:
 
 # Deployment
 
-
+This site was deployed to Github pages, on which a link was generated with a live version of the website. This link is below:
+https://samagosti7.github.io/Project-2.1/
 
 # Credits
 - Main code for the dynamic background on the home and contact pages was taken from the provided project https://top-chef-kelvin.herokuapp.com
