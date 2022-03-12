@@ -8,6 +8,7 @@ let result= "";
 // 0=rock, 1=paper, 3=scissors
 // Function to increase score after the winner is decided
 
+// General structure here derived from https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
 function incrementScore(playerChoiceText, computerChoiceText){
     let oldScorePlayer = parseInt(document.getElementById("playerScore").innerText);
     let oldScoreComputer = parseInt(document.getElementById("computerScore").innerText);

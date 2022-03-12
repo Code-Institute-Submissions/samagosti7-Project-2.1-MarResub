@@ -1,5 +1,6 @@
-/* rest defaults */
+/* reset defaults */
 body{
+    /* font-family taken from https://fonts.google.com/specimen/PT+Serif */
     font-family: PT Serif, sans-serif;
     /* Color scheme originated at https://www.pinterest.com/pin/480759328972726047/ */
     background-color: #BFD1DF;
@@ -34,7 +35,6 @@ nav li{
     display:inline-block;
     margin-right:7%;
     margin-left:7%;
-    /* background-color: #BFD1DF; */
 }
 
 nav a{
@@ -43,7 +43,6 @@ nav a{
     padding:2px;
     transition:0.3s;
     color: #35455D;
-    /* background-color: red; */
 }
 
 nav a:hover{
@@ -112,7 +111,6 @@ nav a:hover{
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    /* height: justify-content; */
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -128,7 +126,7 @@ nav a:hover{
     #keyContainer{
         width: 60%;
     }
-    }
+}
 
 #suggestionContainer{
     margin: 0 auto;
@@ -248,12 +246,11 @@ nav a:hover{
 #showOutcome{
     color:#35455D;
     font-size: 1.2em;
-    /* margin-left: 1.5em; */
     text-align: center;
     
 }
 
-/* form */
+/* feedback form */
 #feedbackHeader{
     margin: 0 auto;
     padding: 0.7em;
@@ -359,13 +356,6 @@ section form{
         width:280px;
         font-size:1.3em;
     }
-    #answer {
-        background-color:ghostwhite;
-        margin:1%;  
-        height:50px;
-        width:280px;
-        font-size:1.2em;
-    }
 }
 
 @media (min-width: 320px) and (max-width:374px) {
@@ -382,16 +372,7 @@ section form{
         width:236px;
         font-size:1.3em;
     }
-
-    #answer {
-        background-color:ghostwhite;
-        margin:1%;  
-        height:50px;
-        width:236px;
-        font-size:1.2em;
-    }
 }
-
 
 /* footer */
 footer {
@@ -416,16 +397,8 @@ footer ul i {
 
 footer a {
     color: #35455D;
-    /* color: #ECDDD0; */
 }
 
 footer a:hover {
     color: #ECDDD0;
-    /* color: #35455D; */
 }
-
-
-
-
-
-
