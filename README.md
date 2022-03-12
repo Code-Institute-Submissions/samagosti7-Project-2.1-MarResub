@@ -71,13 +71,36 @@ The wireframes below look quite a bit different from the end result of the site,
 
 **Typography**
 
+The site uses PT Serif typeface throughout, with Sans-Serif as a back up.
+https://fonts.google.com/specimen/PT+Serif
+
 **Color Scheme**
+
+It seemed ideal to choose a blue based color scheme for this project, which prompted the initial search for a range of blue hues and complementary colors. 
+
+The site https://www.schemecolor.com/i-am-smart.php was used to provide the color scheme.  
+
+<!-- color scheme pic -->
 
 # Technologies Used
 
+- Three languages
+- balsamiq
+- HTML validator
+- CSS validator
+- JAVA validator
+- README validator google docs
+
 # Testing
 
+
 # Credits
+- Main code for the dynamic background on the home and contact pages was taken from 
+- The gradient background of the nav bar on all three pages was taken from  
+- The line of code styling the font inside the text area of the feedback form was taken from 
+- The icons for the social media links and the game itself were taken from 
+
+
 
 
 
