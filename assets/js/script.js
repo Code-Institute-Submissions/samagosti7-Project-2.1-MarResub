@@ -10,7 +10,7 @@ let result= "";
 
 function incrementScore(playerChoiceText, computerChoiceText){
     let oldScorePlayer = parseInt(document.getElementById("playerScore").innerText);
-    let oldScoreComputer = parseInt(document.getElementById("computerScore").innerText)
+    let oldScoreComputer = parseInt(document.getElementById("computerScore").innerText);
     if(result=="win"){
         document.getElementById("playerScore").innerText = ++oldScorePlayer;
         document.getElementById("showOutcome").innerText = "You won! You chose " + playerChoiceText + ", computer chose " + computerChoiceText + ". ";
@@ -48,7 +48,7 @@ function findWinnerRock(){
         computerChoiceText="paper";
     }else{
         result="loss";
-        computerChoiceText="scissors"
+        computerChoiceText="scissors";
     }
     // 0=rock, 1=paper, 3=scissors
     incrementScore("rock",computerChoiceText);

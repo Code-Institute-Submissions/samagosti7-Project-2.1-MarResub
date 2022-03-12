@@ -24,7 +24,6 @@ nav{
 
 nav ul{
     list-style:none;
-    margin:none;
     text-align:center;
 }
 
@@ -51,11 +50,6 @@ nav a:hover{
     padding:2px;
     border-radius:10px;
     color: ghostwhite;
-}
-
-.siteHeader {
-    margin: none;
-    padding: none;
 }
 
 /* Background animation--taken from a provided project, link: https://top-chef-kelvin.herokuapp.com/*/
@@ -105,7 +99,6 @@ nav a:hover{
     padding: 1.5em;
     margin: 0 auto;
     margin-top: 2em;
-    height: justify-content;
 }
 
 #keyContainer{
@@ -119,14 +112,14 @@ nav a:hover{
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    height: justify-content;
+    /* height: justify-content; */
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
     font-size: 1.2em;
-    font-weight: 1.5em;
+    font-weight: bold;
     color: #35455D;
 }
 
@@ -146,12 +139,13 @@ nav a:hover{
     border: 0.5rem;
     width: 70%;
     background-color: #ECDDD0;
+    font-weight: bold;
 }
 
 #intro{
     padding: 0.2em;
     color: #35455D;
-    font-weight: 2em;
+    font-weight: bold;
 }
 
 #key{
@@ -174,8 +168,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     font-size:3em;
-    font-weight: 1.5em;
-    padding-top: none;
+    font-weight: bold;
     color: #35455D;
 }
 
@@ -238,7 +231,7 @@ nav a:hover{
     justify-items: center;
     align-items: center;
     font-size: 1.5em;
-    font-weight: 1.5em;
+    font-weight: bold;
     color: #35455D;
 }
 
@@ -299,17 +292,6 @@ nav a:hover{
 #question::-webkit-input-placeholder {
     font-family: PT Serif, ans-serif;
 }
-
-/* The style rule format here was taken from https://stackoverflow.com/questions/47357063/vertically-align-an-input-placeholder-with-css-or-set-line-height?noredirect=1&lq=1 */
-/* #answer::-webkit-input-placeholder {
-    font-family:sans-serif;
-} */
-
-/* section form label {
-    color:#35455D;
-    padding:10px;
-    font-size:1.2em;
-} */
 
 #form-header{
     display: flex;
