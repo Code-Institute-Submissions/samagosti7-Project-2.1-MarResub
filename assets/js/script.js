@@ -17,7 +17,7 @@ function incrementScore(playerChoiceText, computerChoiceText){
         document.getElementById("showOutcome").innerText = "You won! You chose " + playerChoiceText + ", computer chose " + computerChoiceText + ". ";
     }else if(result=="loss"){
         document.getElementById("computerScore").innerText = ++oldScoreComputer;
-        document.getElementById("showOutcome").innerText = "Computer Won. You chose " + playerChoiceText + ", computer chose " + computerChoiceText + ". ";
+        document.getElementById("showOutcome").innerText = "Computer won. You chose " + playerChoiceText + ", computer chose " + computerChoiceText + ". ";
     }else{
         document.getElementById("showOutcome").innerText = "Draw. You chose " + playerChoiceText + ", computer chose " + computerChoiceText + ". ";
     }
